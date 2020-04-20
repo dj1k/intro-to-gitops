@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "Dynatrace AWS EKS Monitoring"
+title = "Introduction to GitOps w/ AWS EKS"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
@@ -15,9 +15,9 @@ enableEmoji = true
   # See the config.toml file from this documentation site to have an example.
   #editURL = ""
   # Author of the site, will be used in meta information
-  author = "James Bland"
+  author = "Daniel Lizio-Katzen"
   # Description of the site, will be used in meta information
-  description = "Dynatrace AWS EKS Monitoring Description"
+  description = "Introduction to GitOps w/ AWS EKS"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = true
   # Disable search function. It will hide search bar
@@ -45,7 +45,7 @@ enableEmoji = true
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]] 
-name = "<i class='fas fa-graduation-cap'></i> Modernization Workshops"
+name = "<i class='fas fa-graduation-cap'></i> Modern Ops Workshops"
 url = "https://awsworkshop.io"
 weight = 10
 
@@ -55,7 +55,7 @@ url = "https://aws.amazon.com/builders-library/"
 weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='far fa-lightbulb'></i> Modernizating with AWS"
+name = "<i class='far fa-lightbulb'></i> Modern Ops with AWS & Weaveworks"
 url = "https://aws.amazon.com/blogs/modernizing-with-aws/"
 weight = 20
 

@@ -22,7 +22,7 @@ kubectl describe po <pod_name> -n <namespace>
 
 ## Grant viewer role to service accounts
 
-Those Labels and Annotations are centrally defined and managed in Kubernetes but we also want them available in Dynatrace for grouping and filtering purposes.
+Those Labels and Annotations are centrally defined and managed in Kubernetes but we also want them available in Weaveworks for grouping and filtering purposes.
 
 The OneAgent will use a pod <b>service account</b> to query for this metadata via the Kubernetes REST API.
 
@@ -46,7 +46,7 @@ Wait a few minutes :grinning: seriously, let's take a 10 minutes break here
 
 ![keep_calm](/images/keep_calm.png)
 
-In the Dynatrace console: 
+In the Scope: 
 
 - Navigate to one of the process group, for example the front-end (<i>Technologies -> Node.js -> server.js -> Process group details</i>)
 - Expand the properties. 

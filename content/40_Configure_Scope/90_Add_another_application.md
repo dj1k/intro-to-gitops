@@ -37,7 +37,7 @@ It's a simple PHP frontend taking comments as input and writing those to a Redis
 
 ## View the guestbook app in Dynatrace
 
-- Switch to the Dynatrace console, in the <b>Services</b> view, you will see 2 new services
+- Switch to the Weaveworks console, in the <b>Services</b> view, you will see 2 new services
 - In the <b>Technologies</b> view, you will also see new technologies associated to the guestbook app processes (Apache HTTP Server, PHP and Redis)
 - Select one of those 2 services and drill-down to the underlying process group. Expand the properties and take a look.
 

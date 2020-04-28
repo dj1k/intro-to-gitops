@@ -6,7 +6,7 @@ weight = 10
 
 ## Script overview
 
-Change directory to `dynatrace-k8s`. You can take a look at the deployment script that does the following tasks:
+Change directory to `gitops-k8s`. You can take a look at the deployment script that does the following tasks:
 
 * Create a dev namespace
 * Create a production namespace
@@ -16,7 +16,7 @@ Change directory to `dynatrace-k8s`. You can take a look at the deployment scrip
 * Launch continuous load testing on the dev carts service
 
 ```sh
-$ cd dynatrace-k8s
+$ cd gitops-k8s
 $ more deploy-sockshop.sh
 ```
 
@@ -33,7 +33,7 @@ $ ./deploy-sockshop.sh
 Get the list of Sock Shop pods by running this command: 
 
 ```sh
-$ kubectl get pods --all-namespaces -l product=sockshop
+$ eksctl get pods --all-namespaces -l product=sockshop
 ```
 
 Notice the pods status and ready state. They should all be `Running` and `Ready`. Just rerun the command they are still starting up.

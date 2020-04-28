@@ -6,9 +6,9 @@ weight = 20
 
 ## Explore auto-detected Process and Process Group names
 
-Take a quick look at the current <b>Process</b> and <b>Process Group</b> naming as automatically assigned by Dynatrace with the built-in naming rules.
+Take a quick look at the current <b>Process</b> and <b>Process Group</b> naming as automatically assigned by Weaveworks with the built-in naming rules.
 
-You can see processes and process groups in different locations in the Dynatrace console:
+You can see processes and process groups in different locations in the Weaveworks console:
 
 - <b>Technologies</b> view : <b>Process Groups</b> by underlying technology
 - <b>Hosts</b> view : processes monitored on a <b>Host</b> (Kubernetes node)
@@ -41,7 +41,7 @@ Let's apply that configuration in Dynatrace!
 
 ### Preview 
 
-Before saving a rule that will affect the way information is displayed to all Dynatrace users, you would probably like to have a glance at the potential result. 
+Before saving a rule that will affect the way information is displayed to all Weaveworks users, you would probably like to have a glance at the potential result. 
 
 This is possible! :grinning:
 

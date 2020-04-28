@@ -11,7 +11,7 @@ Kubecon, Immersion Day, or any other event hosted by an AWS employee). If you ar
 
 ### Login to AWS Workshop Portal
 
-This workshop creates an AWS account, EKS Cluster and a Cloud9 environment. You will need the **Participant Hash** provided upon entry, and your email address to track your unique session.
+This workshop creates an AWS account, EKS Cluster, ELB and Route 53 environments that will be managed by eksctl. You will need the **Participant Hash** provided upon entry, and your email address to track your unique session.
 
 Connect to the portal by clicking the button or browsing to [https://dashboard.eventengine.run/](https://dashboard.eventengine.run/). The following screen shows up.
 
@@ -29,4 +29,4 @@ Take the defaults and click on **Open AWS Console**. This will open AWS Console 
 
 ### Next step
 
-Once you have completed the step above, you can leave the AWS console open. You can now move to the [**Dynatrace Setup**](/20_dynatrace_prerequisites.html) section. 
+Once you have completed the step above, you can leave the AWS console open. You can now move to the [**ekstctl Setup**](/20_eksctl_prerequisites.html) section. 

@@ -9,7 +9,7 @@ weight = 50
 <u><b>Scenario</b></u>: The Sock Shop app is mostly developed by contractors
 - There is an internal devops team but otherwise the developers are not company employees 
 - The corporate policies are that non-employees should not have access to any customer or production-related data
-- Both dev and prod apps are running on a Kubernetes cluster so the same Dynatrace environment has data from multiple namespaces altogether
+- Both dev and prod apps are running on a Kubernetes cluster so the same Weaveworks environment has data from multiple namespaces altogether
 - During the previous exercises, we have seem how we can define Management Zones to segregate views based on custom rules
 - Let's now see how we can provide role-based access control to Management Zones so Sock Shop developers can only access the data they need and are allowed to. 
 

@@ -6,10 +6,18 @@ weight = 5
 
 # Welcome
 
-Moving to modern containterized microservice architectures brings IT new challenges as these new applications are more complex and unpredictable than ever. System health problems are rarely well understood from the outset and IT teams spend a significant amount of time manually solving problems and putting out fires after the fact. 
+15 years ago, Git changed the way software teams collaborate and develop software. For new declarative software systems such as Kubernetes, Git can play a key role in deploying, configuring, updating and managing infrastructure as code.
 
-The good news is that Amazon Elastic Kubernetes Service ([Amazon EKS](https://aws.amazon.com/eks/)) and Dynatrace platform are proven solutions to managing this problem.
+GitOps relies on Git as a single source of truth for declarative infrastructure and applications. With Git at the center of delivery pipelines, developers can make pull requests to accelerate and simplify application deployments and operations tasks to Kubernetes.
+
+In this workshop Paul Curtis, Principal Solutions Architect, Weaveworks will teach and demonstrate:
+
+* The 4 principles of GitOps
+* How an enhanced developer experience increases productivity
+* How to boost stability and reliability in Kubernetes environments
+* How to integrate security from the start
+
 
 * Amazon Elastic Kubernetes Service ([Amazon EKS](https://aws.amazon.com/eks/)) is a managed service that makes it easy for you to run Kubernetes on AWS without needing to stand up or maintain your own Kubernetes control plane. 
 
-* [Dynatrace](https://www.dynatrace.com) is an [EKS certified partner](https://aws.amazon.com/eks/partners/) and provides detailed monitoring and dashboarding for real-time visibility into the performance and health of Kubernetes applications. Dynatrace OneAgent is container-aware and comes with built-in support for out-of-the-box monitoring of Amazon EKS down to the infrastructure layer including application-only monitoring.
+* [Weaveworks](https://www.weave.works) is the EKS certified Advanced partner that built [eksktl](https://eksctl.io/). Founded in 2014, Weaveworks makes it fast and simple for developers and DevOps teams to build and operate powerful containerized applications. Weaveworks minimizes the complexity of operating workloads in Kubernetes by providing automated continuous delivery pipelines, observability and monitoring.  One of the first members of the Cloud Native Computing Foundation, Weaveworks also contributes to several open source projects, including Weave Scope, Weave Cortex and Weave Flux.

@@ -8,9 +8,9 @@ weight = 30
 
 ## Explore auto-detected Service names
 
-Take a quick look at the current <b>Service</b> naming as automatically assigned by Dynatrace with the built-in naming rules.
+Take a quick look at the current <b>Service</b> naming as automatically assigned by Weaveworks with the built-in naming rules.
 
-You can see <b>Services</b> in different locations in the Dynatrace console
+You can see <b>Services</b> in different locations in the Weaveworks console
 
 - <b>Service & Transactions</b> view
 - <b>Technologies/Process Groups</b> view : for a given <b>Process Group</b>, the infographic shows the <b>Service</b> implemented by the <b>Process Group</b>
@@ -54,7 +54,7 @@ Let's apply that configuration in Dynatrace!
 
 You will notice there is a section named builtin rules. This is where the out-of-the-box service naming rules are defined. 
 
-This is helpful to understand how Dynatrace come out with auto-discovered service names. 
+This is helpful to understand how Weaveworks come out with auto-discovered service names. 
 
 ![built-in_service_naming_rules](/images/built-in_service_naming_rules.png)
 

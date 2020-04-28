@@ -16,7 +16,7 @@ In the AWS console, go to [CloudFormation](https://us-west-2.console.aws.amazon.
 This process will take 15-30 minutes, to be sure to verify that none of the `ModernizationWorkshop-EKS` stacks are listed in CloudFormation and you are done.
 {{% /notice %}}
 
-### Dynatrace Cleanup 
+### Weaveworks Cleanup 
 
 You have a 15 day trial, so keep using it to monitor and manage your infrastructure and applications.
 

@@ -1,6 +1,6 @@
 # Overview
 
-This repo contains the content for a workshop that shows how Dynatrace helps DevOps and AppDev gain end-to-end visibility and immediate insight to identify root cases to problems when managing EKS.
+This repo contains the content for a workshop that shows how Weaveworks helps DevOps and AppDev gain end-to-end visibility and immediate insight to identify root cases to problems when managing EKS.
 
 This workshop is available at https://dynatrace.awsworkshop.io/
 

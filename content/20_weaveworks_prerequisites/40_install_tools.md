@@ -16,10 +16,10 @@ We have provided some simple UNIX shell scripts for this workshop that will auto
 
 1. Run the **install-workshop-tools** script that will:
 
+    * Install [eksctl](https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz) EKS CLI
     * Install [jq](https://stedolan.github.io/jq) json query utility
     * Install [kubectl](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html) command line tool for Kubernetes
     * Install [aws-iam-authenicator](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html that allows IAM to provide authentication to your Kubernetes cluster
-    * Upgrade the [AWS CLI](https://aws.amazon.com/cli/) to version 2
 
     ```
     cd ~/dynatrace-k8s

@@ -16,7 +16,7 @@ The architecture of the demo microserivces application was intentionally designe
 
 Furthermore, it is intentionally polyglot to exercise a number of different technologies. Again, we'd recommend that you only consider new technologies based upon a need.
 
-As seen in the image above, the microservices are roughly defined by the function in an ECommerce site. Networks are specified, but due to technology limitations may not be implemented in some deployments.
+As seen in the image above, the microservices are roughly defined by the function in an e-commerce site. Networks are specified, but due to technology limitations may not be implemented in some deployments.
 
 All services communicate using REST over HTTP. This was chosen due to the simplicity of development and testing. Their API specifications are under development.
 

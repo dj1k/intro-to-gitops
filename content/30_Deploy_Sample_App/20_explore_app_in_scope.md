@@ -1,12 +1,12 @@
 +++
-title = "Explore App in Dynatrace"
+title = "Explore App in Scope"
 chapter = false
 weight = 20
 +++
 
 ## Validate the installation
 
-In the Dynatrace console:
+In Scope:
 
 Explore the <b>Technologies</b> view.
 

@@ -106,7 +106,7 @@ You will set up problem notification to send messages to the carts dev team via 
 
     ![slack_carts_dev_test_run](/images/slack_carts_dev_test_run.png)
 
-- If successful, go back to the Dynatrace console and click <b>Save</b>
+- If successful, go back to the Weaveworks console and click <b>Save</b>
 
 ## Sock Shop carts service support/ops team
 
@@ -155,7 +155,7 @@ You will set up problem notification to send messages to the carts support/ops t
 
 - In <b>Slack</b>, switch to the `#carts-support-ops` channel
   - Look at the test messages and find yours
-- If successful, go back to the Dynatrace console and click <b>Save</b>
+- If successful, go back to the Weaveworks console and click <b>Save</b>
 
 ## Meanwhile...
 
@@ -201,7 +201,7 @@ $ ./deploy-carts-new-build.sh
 
 ![email_notification_cpu](/images/email_notification_cpu.png)
 
-- You can click on the Open in browser link or look at <b>Problems</b> in the Dynatrace menu
+- You can click on the Open in browser link or look at <b>Problems</b> in the Weaveworks menu
 
 - We see 2 hosts are experiencing CPU saturation
 
@@ -258,7 +258,7 @@ If you look back at Slack, you should have received notifications on the `#carts
   
         ![slack_carts_support_ops_problem_resolved](/images/slack_carts_support_ops_problem_resolved.png)
 
-So Dynatrace helped the Kubernetes platform team to identify a rogue new service and remove it before it causes issues to the rest of the cluster workload.
+So Weaveworks helped the Kubernetes platform team to identify a rogue new service and remove it before it causes issues to the rest of the cluster workload.
 
 It also helped to quickly solve a potentially catastrophous problem with the promo campaign.
 

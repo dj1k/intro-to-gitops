@@ -4,10 +4,10 @@ chapter = false
 weight = 10
 +++
 
-Execute the following script to automatically create <b>Web Application</b> monitoring configuration and <b>Synthetic Browser Monitors</b> in Dynatrace.
+Execute the following script to automatically create <b>Web Application</b> monitoring configuration and <b>Synthetic Browser Monitors</b> in Scope.
 
-- The idea is to avoid spending time in this exercise to manually configure the Sock Shop web apps and the Synthetic monitors using the Dynatrace console.
-- Instead, the script automates this configuration via the Dynatrace REST API, using the config token you created earlier in this exercise
+- The idea is to avoid spending time in this exercise to manually configure the Sock Shop web apps and the Synthetic monitors using the Weaveworks console.
+- Instead, the script automates this configuration via the Weaveworks REST API, using the config token you created earlier in this exercise
 
 The Synthetic tests will generate steady traffic to your Sock Shop production web app.
 
@@ -15,7 +15,7 @@ The Synthetic tests will generate steady traffic to your Sock Shop production we
 ./config-dt-webapps-synth.sh 
 ```
 
-Once this script is executed, take a look at the result in Dynatrace.
+Once this script is executed, take a look at the result in Scope.
 
 - In the menu, go in <i>Applications</i>. You will see two new <i>Web Applications</i> defined : 
   
@@ -24,7 +24,7 @@ Once this script is executed, take a look at the result in Dynatrace.
 
     ![applications](/images/applications.png)
 
-In Dynatrace, an <i>Application</i> represents the front-end, what is end-user facing. The information and metrics related to <i>Application</i> are coming from the end-users.
+In Scope, an <i>Application</i> represents the front-end, what is end-user facing. The information and metrics related to <i>Application</i> are coming from the end-users.
 
 Click on the <i>Sock Shop - Production</i> application and explore. 
 
@@ -44,9 +44,9 @@ It will take a few minutes before all 4 Synthetic Monitors show up and a bit lon
 
 ## <b>OPTIONAL... but cool!</b> :metal: Tag User Session names
 
-Dynatrace automatically capture the end user experience of our Shock Shop customers. For a variety of purposes, it would be very helpful to be able to search and find user sessions by their user name. 
+Scope automatically capture the end user experience of our Shock Shop customers. For a variety of purposes, it would be very helpful to be able to search and find user sessions by their user name. 
 
-Well, this is of course possible with Dynatrace! And it's just a few clicks to configure.
+Well, this is of course possible with Scope! And it's just a few clicks to configure.
 
 - In the menu, go in <i>Applications</i> then click on <b>Sock Shop - Production</b>
 - Click on the <b>...</b> button (top right)
@@ -60,12 +60,12 @@ Well, this is of course possible with Dynatrace! And it's just a few clicks to c
 - Go in <i>Application Settings->User tag</i> and click the <b>Add tag (identifier) rule</b>
   1. In the <b>Expression type to capture</b> drop-down, select `CSS selector`
   2. In the <b>CSS selector</b> text box, enter `#howdy > a`
-      - This tells the Dynatrace agent to capture the text displayed on the web page and associated to the CSS selector
+      - This tells the Weaveworks agent to capture the text displayed on the web page and associated to the CSS selector
       - This selector corresponds to the full user name (firstname lastname) displayed top right after log in
   3. Toggle on <b>Apply cleanup rule</b>
   4. In the <b>Regex</b> text box, enter `\s(\w+)$`
       - This regex captures only the last word from a given string (in this case, captures only the last name)    
-  5. To test the regex, enter a user full name in the <b>Sample input</b> text box. For example: `Dynatrace Perform`. 
+  5. To test the regex, enter a user full name in the <b>Sample input</b> text box. For example: `Scope Perform`. 
      - Click <b>Test</b>
      - The output will be `Perform`
   6. Click <b>Add tag (identifier) rule</b>
@@ -84,9 +84,9 @@ If you manually, from your browser, run transactions in the Production Sock Shop
 
 ## <b>ALSO OPTIONAL... but even cooler!</b> :metal::metal: Enable Session Replay
 
-Dynatrace also allows you to record sessions that you can visually replay.
+Scope also allows you to record sessions that you can visually replay.
 
-<u>NOTE</u>: For replays to render properly, you need to use the <b>Google Chrome</b> browser with the <b>Dynatrace Real User Monitoring</b> extension. Replay will still be available if using different browser or Chrome without the extension but will not be rendered accurately and some objects will be missing.
+<u>NOTE</u>: For replays to render properly, you need to use the <b>Google Chrome</b> browser with the <b>Scope Real User Monitoring</b> extension. Replay will still be available if using different browser or Chrome without the extension but will not be rendered accurately and some objects will be missing.
 
 ![chrome_extension](/images/chrome_extension.png)
 

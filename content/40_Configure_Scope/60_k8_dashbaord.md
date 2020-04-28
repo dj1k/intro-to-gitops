@@ -4,14 +4,14 @@ chapter = false
 weight = 60
 +++
 
-- You need an <b>Environment ActiveGate</b> to connect Dynatrace to your Kubernetes cluster API
+- You need an <b>Environment ActiveGate</b> to connect Weaveworks to your Kubernetes cluster API
 - You typically deploy the ActiveGate on a dedicated VM; running the ActiveGate in a container is not currently supported (but planned for the future)
 - For this exercise, the <b>Environment ActiveGate</b> will be deployed on your bastion host
 
 ### Install the ActiveGate on your bastion host
 
-- Make sure you are logged back in the Dynatrace console with your student account. You will need Dynatrace admin permissions for this exercise.
-- In the Dynatrace console, from the menu, go to <b>Deploy Dynatrace</b>, scroll down to the bottom and click on <b>Install ActiveGate</b>
+- Make sure you are logged back in the Weaveworks console with your student account. You will need Weaveworks admin permissions for this exercise.
+- In the Weaveworks console, from the menu, go to <b>Deploy Dynatrace</b>, scroll down to the bottom and click on <b>Install ActiveGate</b>
   
     ![install_ActiveGate](/images/install_ActiveGate.png)
 
@@ -34,7 +34,7 @@ weight = 60
    - API endpoint URL
    - Service account Bearer token 
 
-### Create the Dynatrace cluster monitoring service account
+### Create the Weaveworks cluster monitoring service account
 
 - The manifest (yaml file) is described in the documentation but you already have it downloaded from the github repo
 - Execute the following command to create the objects associated to the account :
@@ -56,12 +56,12 @@ weight = 60
 
   - Execute the following command :
     ```sh
-    $ kubectl get secret $(kubectl get sa dynatrace-monitoring -o jsonpath='{.secrets[0].name}' -n dynatrace) -o jsonpath='{.data.token}' -n dynatrace | base64 -d ; echo
+    $ kubectl get secret $(kubectl get sa dynatrace-monitoring -o jsonpath='{.secrets[0].name}' -n dynatrace) -o jsonpath='{.data.token}' -n Weaveworks | base64 -d ; echo
     ```
 
 ## Set up connection
 
-- In the Dynatrace console, select <b>Kubernetes</b> in the menu
+- In the Weaveworks console, select <b>Kubernetes</b> in the menu
 - Click on <b>Setup Kubernetes and OpenShift cluster monitoring</b>
   
     ![Kubernetes_menu](/images/Kubernetes_menu.png)
